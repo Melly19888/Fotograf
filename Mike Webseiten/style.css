@@ -1,0 +1,146 @@
+body {
+    background-color: #cdbe70;
+}
+.item1 {
+    grid-area: header;
+}
+.item2 {
+    grid-area: nav;
+}
+.item3 {
+    grid-area: aside;
+}
+.item4 {
+    grid-area: footer;
+}
+.container {
+    display: grid;
+    grid-template-rows: 35% 35% 30%;
+    grid-template-columns: 8% 84% 8%;
+    grid-template-areas:
+        "header header header"
+        "nav main aside"
+		
+        "footer footer footer";
+}
+header {
+   margin-top: -4em;
+   background-color: #ffec8b;
+}
+footer {
+	margin-top:-41em;
+   text-align: center;
+   margin-bottom: 10em;
+   background-color: #ffec8b;
+}
+h1 {
+   border: 14px solid;
+   text-align: center;
+   font-size: 40px;
+   background: linear-gradient(90deg,#a020f0 20%,#4876ff 60%,#473c8b 70%,#454504 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+}
+h2 {
+	margin-top:-1.5em;
+   border: 14px solid;
+   text-align: center;
+   font-size: 35px;
+   background: linear-gradient(90deg,#a020f0 20%,#4876ff 60%,#473c8b 70%,#454504 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+}
+h3{
+	font-size:28px;
+}
+h4{
+	font-size:20px;
+	margin-top:-1em;
+}
+h5{
+	margin-right: 12em;
+	font-size:20px;
+	
+}
+main {
+   text-align:center; 
+   margin-top:-1em; 
+   background-color:#ffec8b; 
+   font-size:20px; 
+} 
+nav { 
+   background-color:#ffec8b; 
+} 
+#canvasRules { 
+   display:block; 
+   position:absolute; 
+   opacity:95%; 
+   background-color:#393939; 
+   width :1500px; 
+   height:750px ; 
+   left :5%;
+   top :8%;
+   padding :5%; 
+   border-radius :5%;
+   color :#551a8b ; } 
+
+button{
+	margin-top :1em ;
+	margin-right: 12em;
+	margin-bottom :1em ;
+	height :50px ; 
+	width :20% ; 
+	font-size :125% ; } 
+
+#Mike{
+	width :16% ; 
+	} 
+
+.item2{
+	margin-top :-28em ;
+	margin-left :2em ;
+	margin-bottom:25em;
+	} 
+
+#Preis{
+	margin-top :-45em ;
+	margin-left :65em ;
+	margin-bottom :50em ;
+	width :25% ; } 
+
+.border0 {
+	border :10px solid blue ;
+} 
+
+.border1 { 
+border :10px solid purple ;
+ } 
+ .border2 {
+	border :10px solid #cd2626 ;
+} 
+.border3 {
+	border :10px solid #8b008b ;
+} 
+
+
+
+#Trans{ 
+margin-left :-10em ;
+margin-top:1em;
+}
+#Hier{
+	margin-top:-2em;
+	margin-right:12em;
+}
+button:hover {
+	background-color: 	#00f5ff;
+	}
+a { 
+color:#551a8b
+ }
+
+a:link, a:visited {
+ text-decoration: none;
+}
